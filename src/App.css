@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-page {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nav-search-bar {
+  height: 100px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-search-bar input {
+  padding: 8px 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btn {
+  padding: 8px 15px;
+}
+
+.profile-card {
+  width: 45vh;
+  /* border: 3px solid; */
+  position: relative;
+  left: 10vh;
+}
+
+.profile-card h2 {
+  margin: 15px 10px;
+}
+
+.profile-card img {
+  width: 45vh;
+  border-radius: 50%;
+  border: 2px solid rgb(128, 127, 127);
+}
+
+.profile-card button {
+  color: rgb(78, 76, 76);
+  font-size: 15px;
+  width: 42vh;
+  padding: 5px 0;
+  margin: 0 12px;
+}
+
+.profile-card p {
+  padding: 25px 0;
+  margin: 0 12px;
+}
+
+#repo-cantainer {
+  width: 90vh;
+  height: 15vh;
+  border-bottom: 1px solid rgb(202, 200, 200);
+  padding: 20px 30px;
+  margin: 30px 0;
+}
+
+#repo-cantainer a {
+  text-decoration: none;
+  color: rgb(18, 83, 224);
+}
+
+#repo-cantainer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(18, 83, 224);
+}
+
+#repo-cantainer p {
+  padding-top: 35px;
+}
+
+#repo-cantainer strong {
+  border-radius: 30px;
+  padding: 0px 5px;
+  color: rgb(88, 88, 88);
+  border: 1px solid rgb(178, 177, 177);
+  background-color: rgb(242, 242, 242);
+}
+
+.containt-line {
+  display: flex;
+}
+
+.containt-line span {
+  margin: 7px 0 0 20px;
 }
